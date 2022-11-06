@@ -68,7 +68,7 @@ html{
 .inicio{
     background-image: linear-gradient(to bottom, #4f5252, #5c5f5f, #6a6b6d, #78797a, #868687, #828283, #7e7e7e, #7a7a7a, #646363, #4e4d4d, #393838, #252524);
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
     color: #fff;
     display: flex;
     align-items: center;
@@ -80,12 +80,14 @@ html{
     margin: auto;
     text-align: center;
     border-radius: 40px;
+    margin-top: 90px;
+    margin-bottom: 10px;
 }
 .inicio .contenido-banner img{
     margin-top: 40px;
     border: 10px solid var(--gris);
     display: block;
-    width: 60%;
+    width: 55%;
     margin: auto;
     border-radius: 100%;
 }
