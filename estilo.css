@@ -173,6 +173,7 @@ html{
 .sobremi .fila .col .contenedor-intereses{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .sobremi .fila .col .contenedor-intereses .interes{
     width: 100px;
@@ -666,8 +667,8 @@ footer .arriba{
         position: absolute;
         right: 0;
         top: 75px;
-        background-color: #252A2E;
-        width: 180px;
+        background-color: var(--beige);
+        width: 200px;
     }
     nav.responsive ul{
         display: block !important;
