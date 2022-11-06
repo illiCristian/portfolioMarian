@@ -89,7 +89,7 @@ html{
     display: block;
     width: 55%;
     margin: auto;
-    border-radius: 100%;
+    border-radius: 20%;
 }
 .inicio .contenido-banner h1{
     margin-top: 40px;
@@ -138,7 +138,7 @@ html{
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: var(--negro);
+    color: var(--beige);
     font-weight: bold;
 }
 .sobremi .fila{
@@ -161,7 +161,7 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: var(--negro);
+    color: var(--beige);
     width: 130px;
 }
 .sobremi .fila .col ul li span{
@@ -186,7 +186,7 @@ html{
     justify-content: center;
     transition: .3s;
 }.sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: var(--negro);
+    background-color: var(--beige);
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
