@@ -46,6 +46,9 @@ html{
     display: flex;
     list-style: none;
 }
+.contenedor-header nav{
+    margin-top: 19px;
+}
 .contenedor-header header nav ul li a{
     text-align: none;
     color: var(--negro);
@@ -53,9 +56,14 @@ html{
     padding: 3px;
     transition: .5s;
     text-decoration: none;
+    
 }
 .contenedor-header header nav ul li a:hover{
     color: var(--negro);
+    background-color: #1e2326;
+    color: var(--beige);
+    border-radius: 3px;
+
 }
 .nav-responsive{
     background-color: var(--negro);
@@ -374,6 +382,14 @@ html{
     0%{width: 0%;}
     100%{width: 80%;}
 }
+.btn-download {
+    text-decoration: none;
+    color: var(--beige);
+}
+.btn-download:hover{
+    color: var(--negro);
+    font-weight: bold;
+}
 /* SECCION CURRICULUM */
 .curriculum{
     background-color: #1e2326;
@@ -428,7 +444,7 @@ html{
 }
 .curriculum .fila .item .fecha{
     display: block;
-    color: var(--negro);
+    color: var(--beige);
     font-weight: bold;
     margin-bottom: 10px;
 }
