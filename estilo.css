@@ -109,8 +109,10 @@ html{
     font-family: 'Righteous';
 }
 .inicio .contenido-banner h2{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: normal;
+    color: var(--beige);
+    margin-top: 25px;
 }
 .inicio .contenido-banner .redes a{
     color: #fff;
